@@ -25,6 +25,17 @@ We will:
 
 ---
 
+my-infra-repo/
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── ansible/
+│   ├── playbook.yml
+│   └── inventory
+└── app/
+    └── app-code/
+
 1️⃣ Prerequisites
 
 ✅ AWS IAM User – Needs EC2FullAccess & IAMFullAccess.
